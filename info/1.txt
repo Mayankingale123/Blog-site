@@ -1,0 +1,55 @@
+query in python 
+python manage.py shell
+ from blog.models import Post
+>>> from django.contrib.auth.models import User
+
+// get all User
+User.objects.all();
+    post_2 = Post(title='Blog 2',content='User 2Post Content!', author=user[1]) 
+
+
+//flash message 
+displayed one when we get data
+
+//redirect to home page
+
+crispy form ??why - adding style to the form as if we do it in backend all thing is mix up
+
+for including it we- setting.py - bydefault use bootstrap2
+
+for login - by default from django views as auth_views
+and same logout
+it does all back end and from end logic but we have to make templates
+
+isAuthanticated - login hai ya nhi check karne ke liye
+
+if you are not loged in then can not acces to feature
+users.views.py def profile
+
+decorators @login_required - login is required to acces this page
+
+/////////////////////////////
+profile
+django not provide profile picture by default
+we want one to one 
+os we extand user model
+
+
+ 
+#path of folder where to store uploaded file
+MEDIA_ROOT= os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
+
+django signal - jese he user create ho by default profile ban jaye default image uploaded ho jae
+
+ enctype="multipart/form-data"
+
+ now we have to add update feature 
+ such that we can update image,username,email
+--how??
+
+we do this by creating form //Model form
+
+/////////////////
+10
+upto now we saw function base views now see class base views

@@ -1,0 +1,16 @@
+we saw function view 
+
+now lets see class based view 
+List view , detail view , update view , delete...
+
+as the name suggest it is same 
+
+///////////
+in detail view django provide us a variable in routes !!
+
+create view mai template post_form - hai
+
+can not use decorator in view class thus - we use mixins - LoginRequiredMixin;
+
+UserPassesTestMixin - khud ka hi post update kare dusro ka nhi
+require a function to check 
